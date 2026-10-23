@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "name": "Expresso",
+      "price": "15",
+      "description": "Hello World",
+      "category": "coffee",
+      "image": "expresso.jpg",
+      "id": "Vxlx95xVvLU"
+    },
+    {
+      "name": "Iced Mocha",
+      "price": "15",
+      "description": "Hello World",
+      "category": "coffee",
+      "image": "iced_mocha.jpg",
+      "id": "_-3LR-NZJtw"
+    },
+    {
+      "name": "White Expresso",
+      "price": "15",
+      "description": "Hello World",
+      "category": "coffee",
+      "image": "milk_expresso.jpg",
+      "id": "wl8Ul4qbVws"
+    },
+    {
+      "name": "Black Coffee",
+      "price": "15",
+      "description": "Hello World",
+      "category": "coffee",
+      "image": "black_coffee.jpg",
+      "id": "nmAAVmahIO0"
+    },
+    {
+      "name": "Pineapple Shake",
+      "price": "50",
+      "description": "",
+      "category": "shake",
+      "image": "pineapple_drink.jpg",
+      "id": "-AcOxxamgzs"
+    },
+    {
+      "name": "Mango Shake",
+      "price": "50",
+      "description": "",
+      "category": "shake",
+      "image": "mango.jpg",
+      "id": "t0J4NucRdRg"
+    },
+    {
+      "name": "Iced Red Velvet Shake",
+      "price": "35",
+      "description": "",
+      "category": "shake",
+      "image": "velvet.jpg",
+      "id": "ICnPJHk386o"
+    },
+    {
+      "name": "Milky Strawberry Shake",
+      "price": "40",
+      "description": "",
+      "category": "shake",
+      "image": "strawberry.jpg",
+      "id": "G2fDE2JbzUA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

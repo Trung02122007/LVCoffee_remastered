@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LVCoffee</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/17e95093e3.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+<!--Header-->
+<div class="banner">
+    <div class="navbar">
+        <h1 class="logo"><span class="logo-text">LV</span>Coffee<span class="logo-text">.</span></h1>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="menu.html"><li>Menu</li></a>
+            <a href="menu.html"><li>Products</li></a>
+            <li>Community</li>
+            <li>About</li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h1>A coffee a day</h1>
+        <p>Bring out the coffee. Bring up the joy. And fulfill the holiday spirit with us</p>
+        <div>
+            <a href="menu.html" target="_blank"><button type="button" class="nav-button"><span class="animated-button"></span>Make An Order</button></a>
+            <a href="admin.html" target="_blank"><button type="button" class="nav-button"><span class="animated-button"></span>Sign In</button></a>
+        </div>
+    </div>
+</div>
+
+<hr style="border:3px solid #f3dcc5; box-shadow: 0 0 15px #ffa31f;">
+
+<!--Sidebar-->
+<div class="sidebar">
+    <i class="sidebar-icon fas fa-search"></i>
+    <i class="sidebar-icon fa-solid fa-mug-hot"></i>
+    <i class="sidebar-icon fas fa-home"></i>
+    <i class="sidebar-icon fa-solid fa-cart-shopping"></i>
+    <i class="sidebar-icon fas fa-users"></i>
+</div>
+
+<!--Main-->
+<!--Main(Newly Added)-->
+<div class="product-list-container">
+    <div class="product-list-head">
+        <h1 class="product-list-title">Newly Added</h1>
+        <button class="product-list-seemore"><span class="animated-button"></span>See More</button>
+    </div>
+    <div class="product-list" data-category="all"></div>
+</div>
+
+<!--Video-->
+<h1 class="video-title"><span class="logo-text">Advertising</span> Video</h1>
+<div class="video-container">
+    <video controls autoplay muted loop>
+        <source src="video/Coffe Time _ Panasonic lumix gx80 _ Meike 25mm f_1.8.mp4" type="video/mp4">
+    </video>
+</div>
+
+<!--Footer-->
+<hr style="border:3px solid #f3dcc5; box-shadow: 0 0 15px #ffa31f;">
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a>About Us</a></li>
+                    <li><a>Our Services</a></li>
+                    <li><a>Avchivements</a></li>
+                    <li><a>Cookies</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a>FAQ</a></li>
+                    <li><a>Home</a></li>
+                    <li><a>Menu</a></li>
+                    <li><a>Community Tab</a></li>
+                    <li>>Random Place</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>You Might Care</h4>
+                <ul>
+                    <li><a>Special Events</a></li>
+                    <li><a>Special Menu</a></li>
+                    <li><a>Discounts</a></li>
+                    <li><a>Upcomming Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow us</h4>
+                <div class="social-links">
+                    <i class="fa-brands fa-discord"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-solid fa-envelope" ></i>
+                    <i class="fa-brands fa-twitter"></i></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

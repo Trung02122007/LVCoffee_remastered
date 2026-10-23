@@ -1,0 +1,111 @@
+/* Page */
+body { min-height: 100vh; }
+
+/* Centering + gap under the navbar */
+.detail-wrap {
+    padding: 40px 20px;
+}
+.back-link { text-decoration: none; }
+.detail-box {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.back-link {
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    margin-bottom: 15px;
+    width: fit-content;
+    transition: color 0.3s;
+}
+
+.back-link:hover { color: #ffa74f; }
+
+/* Detail card (your size) */
+.detail {
+    flex: none;
+    height: 70vh;
+    width: 1200px;
+    min-height: 450px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    background-color: rgba(27, 28, 36, 0.9);
+    border: 2px solid #ffa74fc9;
+    border-radius: 13px;
+    box-shadow: 0 0 .95em rgba(255, 141, 27, 0.596);
+}
+
+.detail-img-wrap {
+    min-height: 0;
+    overflow: hidden;
+}
+
+.detail-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease-in-out;
+}
+
+.detail:hover .detail-img { transform: scale(1.04); }
+
+.detail-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+.detail-category {
+    width: fit-content;
+    padding: 4px 14px;
+    border: 2px solid #ffa74fc9;
+    border-radius: 25px;
+    color: #ffa74f;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.detail-name { font-size: 48px; color: white; }
+.detail-price { color: #ffa74f; font-size: 30px; font-weight: bold; }
+
+.detail-desc {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 26px;
+    max-width: 480px;
+}
+
+/* Buttons */
+.detail-actions {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.btn-cart,
+.btn-buy {
+    padding: 14px 32px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.btn-cart { background: #3b82f6; }
+.btn-buy  { background: #22c55e; }
+
+.btn-cart:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 .8em rgba(59, 130, 246, 0.7);
+}
+
+.btn-buy:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 .8em rgba(34, 197, 94, 0.7);
+}
