@@ -1,4 +1,4 @@
-const PRODUCT_API = `http://localhost:400/products`;
+const PRODUCT_API = `https://lvcoffee-remastered.onrender.com/`;
 
 let product_name = document.querySelector(`#name`);
 let price = document.querySelector(`#price`);
