@@ -1,4 +1,4 @@
-const PRODUCT_API = `https://lvcoffee-remastered.onrender.com`;
+const PRODUCT_API = `https://lvcoffee-remastered.onrender.com/products`;
 
 // ---------- shared ----------
 function go_to_product(id){
