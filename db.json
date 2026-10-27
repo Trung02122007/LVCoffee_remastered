@@ -63,6 +63,34 @@
       "category": "shake",
       "image": "strawberry.jpg",
       "id": "G2fDE2JbzUA"
+    },
+    {
+      "name": "Iced Lemon Tea",
+      "price": "30",
+      "description": "",
+      "category": "tea",
+      "image": "lemon_tea.jpg"
+    },
+    {
+      "name": "Matcha Drink",
+      "price": "49",
+      "description": "",
+      "category": "tea",
+      "image": "honey_lemon_tea.jpg"
+    },
+    {
+      "name": "Honey Lemonade Tea",
+      "price": "35",
+      "description": "",
+      "category": "tea",
+      "image": "matcha.jpg"
+    },
+    {
+      "name": "Boba Milk Tea",
+      "price": "40",
+      "description": "",
+      "category": "tea",
+      "image": "boba_tea.jpg"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
